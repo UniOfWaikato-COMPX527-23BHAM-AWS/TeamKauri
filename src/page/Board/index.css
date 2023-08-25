@@ -1,0 +1,31 @@
+.homepage {
+  display: flex;
+  width: 100%;
+  height: 800px; /* 按需调整高度 */
+}
+
+.map-section {
+  flex: 1;
+  /* 其他地图样式 */
+  background-color: pink;
+}
+
+.map-section #iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.data-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* 按需调整间隙 */
+  padding: 10px; /* 按需调整内边距 */
+  /* 其他样式 */
+}
+
+.data-item {
+  /* 展示数据的样式 */
+}

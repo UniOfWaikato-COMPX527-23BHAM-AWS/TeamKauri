@@ -1,0 +1,48 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #333;
+  background-size: 50px;
+  color: #fff;
+  height: 80px;
+  background-image: url("../img/familyC.png"), url("../img/city.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto 100px, auto 100px;
+  background-position: left 500px center, center center; /* 控制位置 */
+}
+
+.banner .logo {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* 当鼠标悬停在链接上时的样式 */
+.banner .link:hover {
+  text-decoration: underline;
+}
+.logo-image {
+  width: 60px; /* 调整为合适的大小 */
+  height: 60px;
+  margin-left: 10px;
+  /* clip-path: polygon(0% 0%, 100% 50%, 0% 100%); */
+  /* clip-path: ellipse(50% 50% at 100% 50%); */
+
+  /* clip-path: circle(50% at 50% 50%); */
+  clip-path: polygon(
+    50% 0%,
+    /* 三角形的顶点，位于图片的中心上边 */ 100% 50%,
+    /* 右上角，三角形的右侧点 */ 100% 100%,
+    /* 右下角 */ 0% 100%,
+    /* 左下角 */ 0% 50% /* 左上角，三角形的左侧点 */
+  );
+}

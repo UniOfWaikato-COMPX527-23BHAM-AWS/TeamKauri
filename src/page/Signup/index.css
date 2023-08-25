@@ -1,0 +1,81 @@
+.main {
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: absolute;
+  display: flex;
+}
+.left {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-image: url(../img/Kiwi.png);
+  background-size: contain;
+  display: flex;
+}
+.left .text {
+  position: absolute;
+  top: 47%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.right {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.signup {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #40414a;
+}
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-top: 20px;
+}
+input:hover {
+  text-decoration: dotted;
+  font-weight: 700;
+  color: #000;
+  transition: 0.5s;
+}
+
+.firstname:hover {
+  color: blue;
+}
+.lastname:hover {
+  color: blue;
+}
+.email:hover {
+  color: blue;
+}
+.phonenumber:hover {
+  color: blue;
+}
+.button button {
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  margin: 30px 30px;
+  border: none;
+  border-radius: 10px;
+}
+.button button:hover {
+  color: blue;
+}
