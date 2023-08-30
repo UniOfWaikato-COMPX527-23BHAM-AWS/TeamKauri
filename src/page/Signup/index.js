@@ -6,10 +6,10 @@ const SignUp = () => {
       <div class="main">
         <div class="container">
           <div class="left">
-            <div class="background-img"></div>
+            {/* <div class="background-img"></div> */}
             <div class="text">
               <p>
-                <i>Sign up to meet your Kiwi bird.</i>
+                <i>Sign up to make a good life</i>
               </p>
             </div>
           </div>

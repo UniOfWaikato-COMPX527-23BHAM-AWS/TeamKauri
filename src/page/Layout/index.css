@@ -7,10 +7,10 @@
   background-size: 50px;
   color: #fff;
   height: 80px;
-  background-image: url("../img/familyC.png"), url("../img/city.png");
+  background-image: url("https://d1j7agfhqjd3zu.cloudfront.net/familyC.png");
   background-repeat: no-repeat, no-repeat;
   background-size: auto 100px, auto 100px;
-  background-position: left 500px center, center center; /* 控制位置 */
+  background-position: left 150px center, center center; /* 控制位置 */
 }
 
 .banner .logo {

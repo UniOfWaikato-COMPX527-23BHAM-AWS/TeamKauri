@@ -6,6 +6,7 @@ import About from "../page/About";
 import Signup from "../page/Signup";
 
 import { createBrowserRouter, createHashRouter } from "react-router-dom";
+import Login_1 from "../page/Login_1";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/Signup",
         element: <Signup />,
+      },
+      {
+        path: "/login_1",
+        element: <Login_1 />,
       },
     ],
   },

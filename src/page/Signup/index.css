@@ -14,18 +14,22 @@
   position: relative;
   width: 500px;
   height: 500px;
-  background-image: url(../img/Kiwi.png);
+  background-image: url(https://d1j7agfhqjd3zu.cloudfront.net/familytravel.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
+  margin-top: 100px;
 }
 .left .text {
   position: absolute;
-  top: 47%;
-  left: 40%;
+  top: 10%;
+  left: 60%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: black;
   font-size: 30px;
   margin-left: 20px;
+
+  width: 500px;
 }
 
 .right {
