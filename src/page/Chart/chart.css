@@ -1,0 +1,21 @@
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#main-container {
+  display: flex;
+}
+
+#rhs-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+}
+
+#live-value {
+  font-size: xxx-large;
+  align-self: center;
+  font-weight: 500;
+}

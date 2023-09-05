@@ -4,8 +4,10 @@ import Layout from "../page/Layout";
 import Board from "../page/Board";
 import About from "../page/About";
 import Signup from "../page/Signup";
+import Login_1 from "../page/Login_1";
 
 import { createBrowserRouter, createHashRouter } from "react-router-dom";
+import Chart from "../page/Chart/chart";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +17,7 @@ const router = createBrowserRouter([
       // 设置为默认二级路由 一级路由访问的时候，它也能得到渲染
       {
         index: true,
-        element: <Board />,
+        element: <Chart />,
       },
       {
         path: "about",
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/Signup",
         element: <Signup />,
+      },
+      {
+        path: "/login_1",
+        element: <Login_1 />,
       },
     ],
   },

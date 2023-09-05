@@ -7,14 +7,7 @@
 .map-section {
   flex: 1;
   /* 其他地图样式 */
-  background-color: pink;
-}
-
-.map-section #iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: block;
+  /* background-color: pink; */
 }
 
 .data-section {
@@ -28,4 +21,22 @@
 
 .data-item {
   /* 展示数据的样式 */
+}
+
+.data-search p {
+  margin: 10px 120px;
+  position: relative;
+}
+
+.data-search select {
+  margin: 20px 150px;
+  position: relative;
+  border-radius: 30px;
+  height: 30px;
+  width: auto;
+}
+.data-item {
+  margin-left: 120px;
+  margin-top: 50px;
+  padding-bottom: 10px;
 }
